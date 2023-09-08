@@ -1,0 +1,5 @@
+function countSheeps(s) {
+  let x = []
+  let y = s.filter((i) => i == true)
+  return y.length
+}
