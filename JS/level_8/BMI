@@ -1,12 +1,12 @@
 bmi = (w,h) => {
-  let x = w/h**2
+  let x = w/(h**2)
   if (x <= 18.5){
     return "Underweight"
   }
-  else if (18.5 <= x <= 25.0){
+  else if (x <= 25.0){
     return "Normal"
   }
-  else if (25.0 <= x <= 30.0){
+  else if (x <= 30.0){
     return "Overweight"
   }
   else {
