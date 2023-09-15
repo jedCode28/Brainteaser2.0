@@ -1,0 +1,4 @@
+removeChar = (str) => {
+  let a = str.substr(1)
+  return a.slice(0, -1)
+};
