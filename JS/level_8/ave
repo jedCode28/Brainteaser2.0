@@ -1,0 +1,3 @@
+findAverage = (r) => {
+   return r.length === 0 ? 0 : r.reduce((a,c) => a + c, 0)/r.length;
+}
