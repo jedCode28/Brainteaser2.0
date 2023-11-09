@@ -1,0 +1,8 @@
+<!-- https://www.codewars.com/kata/53da3dbb4a5168369a0000fe/train/javascript
+8kyu
+I wrote this function to check true/false for an odd/even number.  -->
+
+evenOrOdd = (n) => {
+  let m = n % 2
+  return m == 0 ? 'Even' : 'Odd'
+}
