@@ -1,4 +1,4 @@
-I wrote this function to return at what index in any given array is the value 'needle'. 
+// I wrote this function to return at what index in any given array is the value 'needle'. 
 
 findNeedle = (h) => {
   const n = h.indexOf('needle')

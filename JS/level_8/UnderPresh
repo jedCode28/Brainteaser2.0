@@ -1,0 +1,5 @@
+// This function was a speed test to code a function that doubles any input. 
+
+doubleInteger = (i) => {
+  return i * 2;
+}
