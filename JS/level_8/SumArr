@@ -1,0 +1,7 @@
+<!-- https://www.codewars.com/kata/57eaeb9578748ff92a000009/train/javascript
+
+This function converts each index value in a given array to a number and reduces it to the numbered array's sum.  -->
+
+sumMix = (x) => {
+  return x.map(Number).reduce((a,b) => a + b)
+}
