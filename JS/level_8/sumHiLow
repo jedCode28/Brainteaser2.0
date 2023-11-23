@@ -1,0 +1,13 @@
+<!-- https://www.codewars.com/kata/576b93db1129fcf2200001e6/train/javascript -->
+
+This function sums the values of an array EXCEPT the highest and lowest values of in the array.
+
+sumArray = (array) => {
+  if (array === null || array == undefined || array.length <= 2 ) {
+    return 0
+  } else {    
+    array.sort((a,b) => a - b).pop()
+    array.shift()
+    return array.reduce((x,y) => x + y)
+  }
+}
