@@ -1,0 +1,7 @@
+<!-- codewars.com/kata/5a2be17aee1aaefe2a000151/train/javascript -->
+
+This function adds the sums of 2 arrays of numbers. 
+
+arrayPlusArray = (arr1, arr2) => {
+  return arr1.reduce((x,y) => x + y) + arr2.reduce((a,b) => a + b); 
+}
