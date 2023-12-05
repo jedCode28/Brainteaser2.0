@@ -1,0 +1,7 @@
+<!-- https://www.codewars.com/kata/55d24f55d7dd296eb9000030/train/javascript
+
+This function takes a string and reverses its order.  -->
+
+solution = (str) => {
+  return str.split("").reverse().join("")
+}
