@@ -1,0 +1,5 @@
+<!-- https://www.codewars.com/kata/57eae20f5500ad98e50002c5/train/javascript
+
+This function takes in a string then outputs the string with all spaces removed.  -->
+
+noSpace = (x) => {return x.split(" ").join("")}

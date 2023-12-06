@@ -1,0 +1,12 @@
+<!-- https://www.codewars.com/kata/55d24f55d7dd296eb9000030/train/javascript
+
+This function takes an integer, spreads it out over an array, and finds the cumulative sum.  -->
+
+summation = (n) => {
+  let r = [...Array(n + 1).keys()]
+  let sum = 0
+  let sumR = r.map((x) => {
+    sum += x
+  })
+  return sum
+}
