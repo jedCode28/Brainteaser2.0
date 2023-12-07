@@ -1,0 +1,5 @@
+<!-- https://www.codewars.com/kata/59ca8246d751df55cc00014c/train/javascript
+
+This function determines if a boolean based on whether the first argument is twice or more than the value of the second.  -->
+
+hero = (b, d) => { return b >= 2 * d ? true : false }
