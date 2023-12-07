@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/570669d8cb7293a2d1001473/train/javascript
+
+This function, like Chuck Norris, will return `false` without using the word "false" in the function, regardless of the argument. 
+
+ifChuckSaysSo = () => {
+  let x = 0 
+  return Boolean(x)}
