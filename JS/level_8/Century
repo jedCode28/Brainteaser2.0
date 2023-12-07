@@ -1,0 +1,15 @@
+<!-- https://www.codewars.com/kata/5a3fe3dde1ce0e8ed6000097/train/javascript
+
+This function takes an input of any given year and outputs what century it is/would be.  -->
+
+century = (year) => {
+  let x = year.toString()
+  if (x.length <= 2 || ~~x === 100) {
+    return 1 
+  } else {
+    let a = x.length
+    let b = a - 2
+    x = x.substring(0, b) 
+    return year % x == 0 ? ~~x : ~~x + 1
+    }
+};
