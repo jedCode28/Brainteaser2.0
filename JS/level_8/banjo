@@ -1,0 +1,5 @@
+<!-- https://www.codewars.com/kata/53af2b8861023f1d88000832/train/javascript
+
+This function takes a name as the argument and outputs "blank plays [or does not play] banjo" based on whether the name begins with either an upper or lower case "R".  -->
+
+areYouPlayingBanjo = (name) => {return /^[Rr]/.test(name) ? `${name} plays banjo` : `${name} does not play banjo`}
