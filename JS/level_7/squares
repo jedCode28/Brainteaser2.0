@@ -1,0 +1,7 @@
+<!-- https://www.codewars.com/kata/54c27a33fb7da0db0100040e/train/javascript
+
+This function takes a number and outputs whether or not it is a square number.  -->
+
+isSquare =(n) => {
+  return n < 0 ? false : Number.isInteger(n ** 0.5) ? true : false
+}
