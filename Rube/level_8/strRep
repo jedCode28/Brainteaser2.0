@@ -1,0 +1,7 @@
+<!-- https://www.codewars.com/kata/57a0e5c372292dd76d000d7e/train/ruby
+
+This function takes 2 arguments, then multiplies the 2nd by the value of the 1st.  -->
+
+def repeat_str (n, s)
+  s * n
+end
