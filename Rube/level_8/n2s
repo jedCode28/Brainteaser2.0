@@ -1,0 +1,7 @@
+<!-- https://www.codewars.com/kata/5265326f5fda8eb1160004c8/train/ruby
+
+This function takes a number and converts it to a string.  -->
+
+def number_to_string(n)
+  n.to_s
+end
