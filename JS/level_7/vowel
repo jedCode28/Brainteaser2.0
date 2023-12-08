@@ -1,0 +1,5 @@
+<!-- https://www.codewars.com/kata/54ff3102c1bad923760001f3/train/javascript
+
+This function takes in a string as the argument then returns the # of vowels (omitting "y") -->
+
+getCount = (str) => {return (str.match(/[aeiou]/gi) || []).length;}
