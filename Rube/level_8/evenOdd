@@ -1,0 +1,11 @@
+<!-- https://www.codewars.com/kata/53da3dbb4a5168369a0000fe/train/rubyhttps://www.codewars.com/kata/53da3dbb4a5168369a0000fe/train/ruby
+
+This function takes a number and outputs whether it is odd or even.  -->
+
+def even_or_odd(n)
+  if n % 2 == 0
+    'Even'
+  else 
+    'Odd'
+  end
+end
