@@ -1,0 +1,4 @@
+def maps(x)
+  dub = x.map{|num| num * 2 }
+  return dub
+end
